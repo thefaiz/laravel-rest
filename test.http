@@ -1,0 +1,25 @@
+GET http://restfulapi.test/api/posts HTTP/1.1
+
+###
+
+POST http://restfulapi.test/api/posts HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "My brand new title",
+    "content": "My brand new content"
+}
+
+###
+
+PUT http://restfulapi.test/api/posts/4
+Content-Type: application/json
+
+{
+    "title": "My brand new title (updated)",
+    "content": "My brand new content (updated)"
+}
+
+###
+
+DELETE http://restfulapi.test/api/posts/4
