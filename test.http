@@ -1,8 +1,8 @@
-GET http://restfulapi.test/api/posts HTTP/1.1
+GET http://restfulapi.test/api/posts
 
 ###
 
-POST http://restfulapi.test/api/posts HTTP/1.1
+POST http://restfulapi.test/api/posts
 Content-Type: application/json
 
 {
